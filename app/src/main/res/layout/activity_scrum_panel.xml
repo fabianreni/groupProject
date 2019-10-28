@@ -6,4 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".ScrumPanelActivity">
 
+    <TextView
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scrum Panel"
+        android:textSize="32sp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="115dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView">
+
+        <ListView
+            android:id="@+id/simpleListView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/material_blue_grey_800"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+
+    <Button
+        app:layout_constraintBottom_toTopOf="@id/deleteAllBtn"
+        android:id="@+id/deleteBtn"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:text="Add a question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        />
+
+    <Button
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/deleteAllBtn"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="8dp"
+        android:text="Delete all questions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deleteBtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

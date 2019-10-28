@@ -23,11 +23,13 @@
             android:id="@+id/tv_pPokerJoin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
             android:layout_marginLeft="64dp"
             android:layout_marginRight="64dp"
             android:text="Planning Poker Join"
             android:textAlignment="center"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"/>
 
         <EditText
             android:id="@+id/et_userName"
@@ -38,7 +40,7 @@
             android:layout_marginRight="16dp"
             android:autofillHints=""
             android:ems="10"
-            android:hint="User Name"
+            android:hint="User's name"
             android:inputType="textPersonName"
             android:textAlignment="center" />
 
@@ -50,6 +52,24 @@
             android:layout_marginLeft="32dp"
             android:layout_marginRight="32dp"
             android:text="@string/join"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_marginTop="64dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:text="OR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/b_scrum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="@string/scrum"
             android:textAlignment="center"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
