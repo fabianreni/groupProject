@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "977237989352",
+    "firebase_url": "https://planningpoker-d2891.firebaseio.com",
+    "project_id": "planningpoker-d2891",
+    "storage_bucket": "planningpoker-d2891.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977237989352:android:1d2d64198177d0c2c8f65d",
+        "android_client_info": {
+          "package_name": "com.example.planningpoker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977237989352-1m5rmouh1iao2h0te2h2j1anie43jv10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.planningpoker",
+            "certificate_hash": "5a108321e3742531f874e1c586ae67ea6bfb9cfe"
+          }
+        },
+        {
+          "client_id": "977237989352-2ehrtgf6bk9th68rret5kmk6cbha4eul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKD3hTmgdwVQfN2pg8ISPddl_5lYB127E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977237989352-2ehrtgf6bk9th68rret5kmk6cbha4eul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
